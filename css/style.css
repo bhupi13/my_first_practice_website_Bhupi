@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ##################  Header ########################## */
+
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.navbar .container{
+    padding-top: 3rem;
+}
+
+.header{
+    height: 95vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),  url("../images/header-image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar a:link{}
+.navbar a:visited{}
+.navbar a:hover{border-bottom: 2px solid white;}
+
+.logo{
+    font-size: 2rem;
+    color: white;
+    letter-spacing: 0.3rem;
+    float: left;
+}
+
+ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+ul li a{
+    font-size: 1.7rem;
+    color: white;
+    letter-spacing: 0.3rem;
+    margin-left: 1.8rem;
+    text-decoration: none;
+    padding-bottom: 0.5rem;
+}
+
+.navitems{
+    float: right;
+}
+
+.clearfix{
+    clear: both;
+}
+
+/* ##################  Header finish ########################## */
+
+
+/* #################### mid section ########################## */
+
+div.heading{
+    display: inline-block;
+    position: relative;
+    top: 38%;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+}
+
+h1.travel{
+    font-size: 2.5rem;
+    letter-spacing: 0.3rem;
+    margin-bottom: 1.5rem;
+    
+}
+
+p.para{
+    font-size: 1.5rem;
+    letter-spacing: 0.3rem;
+    margin-bottom: 1.5rem;
+   
+}
+
+h1.travel, p.para{
+    color: white;
+}
+
+
+.btn{
+    border: 0.2rem solid red;
+    /* position: relative;
+    top: 28rem; */
+    color: red;
+    align-items: center;
+    font-size: 1.8rem;
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    border-radius: 20px;
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+}
+
+.btn:hover{
+    background-color: #ddd;
+}
+
+
+
+/* ################# mid section finish ######################## */
+
+
+/* ################# showcase ########################## */
+
+.showcase{
+    background-color: #ddd;
+    padding: 10rem 0;
+}
+
+.row{
+    height: 350px;
+    background-color: white;
+    box-shadow: 0px 0px 20px 0px #aaa
+}
+
+.row1{
+    margin-bottom: 10rem;
+}
+
+.row1 .imgbox, .row2 .txtbox{
+    float: left;
+    width: 50%;
+}
+
+.row1 .txtbox, .row2 .imgbox{
+    float: right;
+    width: 50%;
+}
+
+.row .imgbox{
+    height: 100%;
+}
+
+.row .txtbox{
+    padding: 2rem;
+}
+
+img{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.largeheading{
+    font-size: 2.8rem;
+    letter-spacing: 0.3rem;
+    font-weight: 500;
+    margin: 2rem;
+}
+
+.p-content{
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+    color: rgb(137, 136, 136);
+    margin: 2rem;
+}
+
+.btn2 {
+    margin: 2rem;
+    font-size: 1.5rem;
+    padding: 1rem 3rem;
+    border: solid 0.2rem red;
+    color: red;
+    border-radius: 4rem;
+    display: inline-block;
+    background-color: white;
+    text-decoration: none;
+}
+
+.btn2:hover{
+    background-color:#ddd;
+}
+
+.row::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+
+/* ######################### Showcase 2 finish ########################### */
+
+.showcase2{
+    padding: 10rem 0;
+}
+
+.parts{
+    box-shadow: 0px 0px 20px 0px #aaa;
+    text-align: center;
+}
+
+.box1{
+    float: left;
+    width: 33.33%;
+    background-color: #263238;
+}
+
+.box2{
+    float: left;
+    width: 33.33%;
+    background-image: linear-gradient( 109.6deg,  rgba(238,58,136,1) 11.2%, rgba(128,162,245,1) 91.1% );
+}
+
+.box3{
+    float: left;
+    width: 33.33%;
+    background-color: #263238;
+}
+
+.parts::after{
+    content: '';
+    display: block;
+    clear:both;
+}
+
+.adv, .less, .exp{
+    font-size: 1.8rem;
+    letter-spacing: 0.2rem;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+}
+
+.advpara, .lesspara, .exppara{
+    font-size: 1.2rem;
+    letter-spacing: 0.2rem;
+    font-weight: 500;
+    padding: 2rem;
+    text-align: center;
+    color: white;
+   
+}
+
+.txtcolor{
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.txtcolor1{
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* ########################## Showcase 2 finish ############################# */
+
+/* ######################## footer ######################### */
+
+.foot{
+    background-color: #263238;
+}
+
+.center{
+    color:  white;
+    text-align: center;
+}
+
+.icon{
+    font-size: 3.2rem;
+    margin: 2rem 0;
+    padding: 0 2rem;
+}
+
+.footpara{
+    font-size: 1.4rem;
+    letter-spacing: 0.3rem;
+    padding-bottom: 2rem;
+}
+
+
+/* ############################ footer finish ############################ */
+
+
+
+
+/* ######################### making home page responsive ############################# */
+
+@media (max-width:1100px){
+    html{
+        font-size: 50%;
+    }
+    
+    .logo, .navitems{
+        float: none;
+        text-align: center;
+    }
+    
+    .logo{
+        margin-bottom: 10px;
+    }
+    
+    .row{
+        height: auto;
+        width: 100%;
+    }
+
+    .btn2{
+        align-items: center;
+    }
+        
+
+    .showcase .container .row .imgbox{
+        float: none;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .showcase .container .row .txtbox{
+        float: none;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+    }
+    
+} 
